@@ -48,6 +48,8 @@ module.exports={
             {
                 test: /\.(png|jpg|svg)$/,
                 use: ['svg-url-loader']
+            },{
+                test: /\.png/
             }
         ]
     },

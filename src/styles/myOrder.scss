@@ -5,7 +5,11 @@
 	padding: 24px;
 	box-sizing: border-box;
 	position: absolute;
-	right: 0;
+	right: 2px;
+	top: 62px;
+	background-color: white;
+	border-radius: 1rem;
+	border: thin solid var(--very-light-pink)
 }
 .title-container {
 	display: flex;
