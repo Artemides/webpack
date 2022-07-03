@@ -1,0 +1,19 @@
+IMPORTAR BABEL
+    @babel/core
+    @babel/preset-env
+    @babel/preset-react
+
+USE WEBPACK
+    webpack webpack-cli webpack-dev-server
+
+USER BABEL LOADER
+    babel-loader html-loader html-webpack-plugin
+
+    configurar webpack
+
+USE SASS development
+    mini-css-extract-plugin 
+    css-loader style-loader sass sass-loader
+
+USE REACT ROUTER
+    react-router-dom
