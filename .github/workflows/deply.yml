@@ -12,7 +12,7 @@ jobs:
           npm install
           npm run  build
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-actions@4.1.4
+        uses: JamesIves/github-pages-deploy-actions@v4
         with:
           branch: gh-pages
           folder: build
