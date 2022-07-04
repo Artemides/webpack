@@ -6,8 +6,8 @@ module.exports={
     entry:'./src/index.js',
     output:{
         path: path.resolve(__dirname,'dist'),
-        publicPath: '/',
-        filename: 'bundle.js'
+        publicPath: '/webpack-react/',
+        filename: 'webpack-react/bundle.js'
     },
     resolve:{
         extensions: ['.js','.jsx'],

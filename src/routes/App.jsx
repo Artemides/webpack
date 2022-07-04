@@ -19,9 +19,9 @@ const App = () => {
   const initialState=  useInitialState();
   return (
     <AppContext.Provider value={initialState} >
-      <Router>
+      <Router basename="/webpack-react">
       <Layout>
-        <Routes>
+        <Routes >
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/login" element={<Login/>} />
           <Route exact path="/recovery-password" element={<RecoveryPassword/>} />
