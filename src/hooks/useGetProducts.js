@@ -6,6 +6,5 @@ export const useGetProducts=(API)=>{
         const response=await axios.get(API);
         setProducts(response.data);
     },[])
-    console.log("uwu")
     return products;
 }
